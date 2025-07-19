@@ -1,0 +1,35 @@
+# Ignore Python cache and compiled files
+__pycache__/
+*.pyc
+
+# Ignore virtual environments
+venv/
+
+# Ignore environment files
+.env
+
+# Ignore logs and databases
+*.log
+*.db
+*.sqlite3
+
+# Ignore dataset files if any
+*.csv
+*.tsv
+*.xlsx
+
+# Ignore git
+.git/
+.gitignore
+
+# Ignore node_modules (if you have frontend here)
+node_modules/
+
+# Ignore frontend build output
+frontend/build/
+
+# Ignore macOS system files
+.DS_Store
+
+# Ignore Jupyter notebooks if any
+*.ipynb
